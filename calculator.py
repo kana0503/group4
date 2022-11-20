@@ -1,13 +1,13 @@
-# This function performs additiion
+# This line of code does the addtion
 def add(a, b):
    return a + b
-# This function performs subtraction
+# This one if for subtraction
 def subtract(a, b):
    return a - b
-# This function performs multiplication
+# This if for multiplication
 def multiply(a, b):
    return a * b
-# This function performs division
+# And this of for divison
 def divide(a, b):
     return a / b
 print("Select an operation.")
