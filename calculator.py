@@ -10,6 +10,7 @@ def multiply(a, b):
 # And this of for divison
 def divide(a, b):
     return a / b
+A = int(input("Enter first number: "))
 print("Select an operation.")
 print("+")
 print("-")
@@ -17,7 +18,7 @@ print("*")
 print("/")
 # User input
 choice = input("Enter operator to use:")
-A = int(input("Enter first number: "))
+
 B = int(input("Enter second number: "))
 if choice == '+':
    print(A,"+",B,"=", add(A,B))
