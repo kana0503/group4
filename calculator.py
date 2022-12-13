@@ -18,7 +18,6 @@ print("*")
 print("/")
 # User input
 choice = input("Enter operator to use:")
-
 B = int(input("Enter second number: "))
 if choice == '+':
    print(A,"+",B,"=", add(A,B))
